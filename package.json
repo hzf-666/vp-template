@@ -6,7 +6,8 @@
     "docs:init": "vitepress init",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "test": ""
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.60"
