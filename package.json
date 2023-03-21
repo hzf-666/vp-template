@@ -3,7 +3,8 @@
     "docs": "vitepress init",
     "docs:dev": "env-cmd -x vitepress dev --host=$VITE_HOST --port=$VITE_DOCS_PORT",
     "docs:build": "vitepress build",
-    "docs:preview": "env-cmd -x vitepress preview --host=$VITE_HOST --port=$VITE_DOCS_PORT"
+    "docs:preview": "env-cmd -x vitepress preview --host=$VITE_HOST --port=$VITE_DOCS_PORT",
+    "docs:serve": "env-cmd -x vitepress serve --port=$VITE_DOCS_PORT"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
